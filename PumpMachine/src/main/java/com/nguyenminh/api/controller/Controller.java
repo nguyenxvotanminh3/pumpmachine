@@ -26,7 +26,7 @@ private PumpService pumpService;
 		pumpService = thePumpService;
 	}
 	
-	@GetMapping("/detail")
+	@GetMapping("/alldetail")
 	public List<Pump> findAll(){
 		return pumpService.findAll();
 	} 
